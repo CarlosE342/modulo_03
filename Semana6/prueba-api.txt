@@ -1,0 +1,13 @@
+Explicación de la respuesta del servidor:
+
+Al enviar una petición POST a la ruta 'http://localhost:3000/registro' con un objeto JSON que contiene las propiedades "nombre" y "mensaje", el servidor procesa la solicitud a través del 'express.json()' (que funciona como intermediario, o interprete de texto plano a un objeto de JS fácil de interpretar). Esto le permite acceder a los datos dentro de 'req.body'.
+
+El servidor devuelve una respuesta en formato JSON con un código de estado 200 (OK) y el siguiente cuerpo estructurado:
+
+{
+    "estado": "Datos recibidos",
+    "nombre": "Maria",
+    "mensaje": "Hola comunidad"
+}
+
+Esta respuesta confirma que los datos fueron interceptados y leídos correctamente por el backend, el cual genera un nuevo objeto que confirma la recepción ("estado") y repite las variables dinámicas enviadas por el cliente.

@@ -1,0 +1,6 @@
+Un ciudadano podría reportar la siguiente incidencia:
+
+{
+    "tipo": "Conectividad y brecha digital",
+    "descripcion": "El punto digital del sector rural presenta desconexión total en el servicio de internet desde hace dos semanas. Esto impide que los jóvenes de la zona puedan acceder a sus plataformas de estudio, afectando directamente el desarrollo de sus actividades académicas y la gestión de sus proyectos productivos comunitarios."
+}
