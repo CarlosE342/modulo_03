@@ -1,0 +1,19 @@
+Al consultar la ruta GET 'http://localhost:3000/reportes', el servidor abre la lista y nos muestra en pantalla 
+el reporte que acabamos de guardar con éxito 
+{
+  "tipo": "Infraestructura",
+  "descripcion": "Daño en alumbrado público"
+}
+
+El resultado que nos devuelve es:
+
+[
+  {
+    "id": 1,
+    "tipo": "Infraestructura",
+    "descripcion": "Daño en alumbrado público"
+  }
+]
+
+El servidor tomó los datos que le enviamos por el POST, los guardó en su lista temporal, le asignó automáticamente el "id": 1 
+y, al hacer la consulta GET, nos los entrega organizados dentro de corchetes [], confirmando que la información ya quedó registrada en la memoria del sistema.

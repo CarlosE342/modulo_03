@@ -1,0 +1,13 @@
+Ejemplos de reportes
+
+Ejemplo 1:
+{
+  "tipo": "Seguridad y Convivencia",
+  "descripcion": "Falta de iluminación y patrullaje en los senderos peatonales aledaños al salón comunitario, lo que genera zonas de riesgo para los jóvenes que retornan de sus jornadas académicas nocturnas."
+}
+
+Ejemplo 2:
+{
+  "tipo": "Participación y Cultura",
+  "descripcion": "El salón comunal no cuenta con silletería ni herramientas pedagógicas suficientes para desarrollar las mesas técnicas de concertación del plan de desarrollo juvenil local."
+}
